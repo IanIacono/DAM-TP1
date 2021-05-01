@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Back y Home</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.css">
+    <script src="jqm/jquery-1.12.3.min.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.js"></script>
+</head>
+
+<body>
+    
+    <div data-role="page" id="home">
+
+        <div role="main" class="ui-content" style="text-align:center;">
+            
+            <img src="imagenes/Logo.png" alt="perfil" width="520" height="120">
+
+            <a href="#primera" 
+                data-role="button" 
+                data-transition="slide">Lineup</a>
+
+            <a href="#tercera" 
+                data-role="button" 
+                data-transition="slide">Trabajos</a>  
+        </div>
+
+    </div>
+
+
+    <div data-role="page" id="primera">
+        
+        <div data-role="header" data-position="fixed">
+
+            <a href="#tercera"
+                data-icon="carat-r" 
+                data-iconpos="notext"
+                data-transition="slide"
+                class="ui-btn-right">Trabajos</a>
+
+            <a href="#" 
+                data-rel="back" 
+                data-icon="back" 
+                data-iconpos="notext" 
+                class="ui-btn-left">volver</a>
+    
+        </div>
+
+
+        <div role="main" class="ui-content">
+
+            <div data-role="header">
+                <h1>Ficha de datos personales</h1>
+            </div>
+
+            <h2 style="text-align:center;">Datos personales</h2>
+
+            <p style="text-align:center;">
+                Nombre: Ian Iacono<br>
+                Edad: 20<br>
+                Localidad: CABA, Argentina<br>
+                Estudios: Egresado de la escuela técnica ORT, actualmente estudiante de la carrera Diseño Multimedial en Escuela Da Vinci.<br>
+                Hobbies: Hacer musica<br>
+            </p>
+
+            <div data-role="footer">
+                <h1>Ficha de datos personales</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="tercera">
+
+        <div data-role="header" data-position="fixed" style="text-align:center;">
+            <h2>Trabajos</h2>
+
+            <img src="imagenes/tp1.jpg" alt="perfil" width="400" height="600">
+           
+
+            <img src="imagenes/tp2.jpg" alt="perfil" width="900" height="600">
+               
+
+            <img src="imagenes/tp3.jpg" alt="perfil" width="400" height="600">
+            <p style="text-align:center;">
+                1. PartyUp - Diseño publicitario<br>
+                2. Auriculares Skull Candy Hesh 2 - Ilustracion Hiperrealista<br>
+                3. A Clockwork Orange - Poster animado<br>
+            </p>
+
+
+            <a href="#" 
+                data-rel="back" 
+                data-icon="back" 
+                data-iconpos="notext" 
+                class="ui-btn-left">volver</a>
+
+            <a href="#home" 
+                data-icon="home" 
+                data-iconpos="notext"
+                data-transition="slide" 
+                data-direction="reverse" 
+                class="ui-btn-left" 
+                style="left: 35px">home</a>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <a href="#primera" 
+                data-role="button" 
+                data-transition="slide">Datos personales</a>
+        </div>  
+
+    </div>
+
+</body>
+
+</html>
