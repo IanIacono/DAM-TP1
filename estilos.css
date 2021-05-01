@@ -1,0 +1,22 @@
+.home {
+  text-align: center;
+  background-color: lightblue;
+}
+.home-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+}
+.home-links a {
+  margin: 5px;
+}
+.ui-content {
+  background-color: purple;
+}
+.ui-content img {
+  float: center;
+}
+
+.contenido-home h1 {
+  margin: 0;
+}
